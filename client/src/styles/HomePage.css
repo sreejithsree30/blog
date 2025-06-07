@@ -1,0 +1,65 @@
+.home-page {
+  min-height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/paper-texture_23-2147786525.jpg?uid=R91626175&ga=GA1.1.1577568073.1730779746&semt=ais_hybrid&w=740');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+
+.hero-section {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 2rem;
+
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4a3c31; 
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #6b5b4d;
+}
+
+
+.explore-button {
+  background-color: #7d5a50;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(125, 90, 80, 0.4);
+}
+
+.explore-button:hover,
+.explore-button:focus {
+  background-color: #a67867;
+  outline: none;
+  box-shadow: 0 6px 12px rgba(166, 120, 103, 0.6);
+}
+
+.footer {
+  padding: 1rem 0;
+  background-color: rgba(125, 90, 80, 0.1);
+  text-align: center;
+  font-size: 0.9rem;
+  color: #4a3c31;
+}
